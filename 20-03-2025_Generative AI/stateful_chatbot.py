@@ -44,7 +44,6 @@ class StatefulChatbot:
         """
         # Se non c'è cronologia, restituiamo una stringa vuota
         if not self.conversation_history:
-
             return "Nessuna conversazione precedente."
 
         # Altrimenti, formattiamo ogni scambio
